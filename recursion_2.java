@@ -1,7 +1,30 @@
 public class recursion_2 {
     public static void main(String[] args) {
- 
+ arr(0);
     };
+
+    static void  arreyMax(int indx){
+        int[]array={222,3332,33,2,12334,222223,22,1223324};
+        
+    }
+
+
+    static void arr(int indx){
+        int[]array={12,11,43,334,555,3};
+        if (indx==array.length) return;
+        System.out.print(array[indx] + " , ");
+        
+        arr(indx+1);
+       
+        
+            
+        
+    }
+
+
+
+
+
 
 static void  tabel(int x,int y){
     if(y==0) return;
